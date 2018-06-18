@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.ReactFlipCard {
+  display: block;
+  width: 100%;
+  min-height: 300px;
+}
+
+.ReactFlipCard,
+.ReactFlipCard__Front,
+.ReactFlipCard__Back {
+  box-sizing: border-box;
+  width: 100%;
+  display: block;
+}
+.ReactFlipCard__Front,
+.ReactFlipCard__Back {
+  height: 300px;
+}
+.ReactFlipCard__Front {
+  height: 300px;
+}
+.ReactFlipCard__Back {
+  height: 300px;
+}

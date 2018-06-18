@@ -1,0 +1,8 @@
+.Cookie{
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    background: #000;
+    left: 0;
+    top:0;
+}

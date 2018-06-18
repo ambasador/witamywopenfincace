@@ -1,0 +1,50 @@
+.head {
+    background: #fff;
+    border-bottom: 1px solid #731e79;
+    padding: 13px 0 18px 0;
+    overflow: hidden;
+    display: block;
+    margin: 0 -15px;
+}
+
+@media (max-width: 992px) {
+    .head {
+        padding: 10px 0;
+    }
+}
+
+.head .head--logo {
+    float: right;
+}
+
+@media (max-width: 992px) {
+    .head .head--logo {
+        display: block;
+        float: none;
+        margin: 0 auto;
+    }
+
+    .head .head--logo img {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+.head h1.head--slogan {
+    font-family: "XXIICentarRegular", sans-serif;
+    color: #731e79;
+    font-size: 23px;
+    margin: 0;
+    padding: 55px 0 0 0;
+}
+
+@media (max-width: 992px) {
+    .head h1.head--slogan {
+        padding: 10px 0;
+        text-align: center;
+    }
+}
+
+.head h1.head--slogan span {
+    color: #ee7d00;
+}
